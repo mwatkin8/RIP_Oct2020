@@ -1,0 +1,19 @@
+{
+  "resourceType": "Encounter",
+  "id": "692",
+  "status": "finished",
+  "class": {
+    "system": "http://hl7.org/fhir/v3/ActCode",
+    "code": "AMB"
+  },
+  "subject": {
+    "reference": "Patient/22878"
+  },
+  "diagnosis": {
+      "reference": "Condition/22883"
+  },
+  "period": {
+    "start": "2020-02-01T11:00:00-06:00",
+    "end": "2020-02-01T12:00:00-06:00"
+  }
+}

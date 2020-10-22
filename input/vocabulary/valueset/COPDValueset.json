@@ -1,0 +1,19 @@
+{
+   "resourceType":"ValueSet",
+   "id":"copd",
+   "status":"draft",
+   "url": "http://fake-valueset-url.org/fhir/ValueSet/copd",
+   "compose":{
+      "include":[
+         {
+            "system":"http://snomed.info/sct",
+            "concept":[
+               {
+                   "code": "13645005",
+                   "display": "Chronic obstructive lung disease (disorder)"
+               }
+            ]
+         }
+      ]
+   }
+}

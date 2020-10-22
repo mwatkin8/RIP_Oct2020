@@ -1,0 +1,31 @@
+{
+  "resourceType": "Observation",
+  "id": "22901",
+  "status": "final",
+  "category": [
+    {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code": "exam",
+          "display": "Exam"
+        }
+      ],
+      "text": "Exam"
+    }
+  ],
+  "code": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "267036007",
+        "display": "Dyspnea (finding)"
+      }
+    ],
+    "text": "Dyspnea"
+  },
+  "subject": {
+    "reference": "Patient/22878"
+  },
+  "effectiveDateTime": "2020-03-09T00:00:00-06:00"
+}
